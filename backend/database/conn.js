@@ -1,7 +1,7 @@
 const mongoose=require('mongoose');
 
 
-  mongoose.connect("mongodb+srv://jaskirat:Qwertyuiop123@liowolf.radtq.mongodb.net/?retryWrites=true&w=majority")
+  mongoose.connect("mongodb+srv://jaskirat:w05mVuBy0sk4vYNw@liowolf.radtq.mongodb.net/lab3?retryWrites=true&w=majority")
   .then(()=>{console.log('connect')})
   .catch((err)=>{
       console.log(err);
